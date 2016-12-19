@@ -21,7 +21,7 @@ systemctl disable firewalld.service
 
 ## 机器划分
 | hostname  | 包含角色                                                                            |
-|:----------|:------------------------------------------------------------------------------------|
+|----------|------------------------------------------------------------------------------------|
 | nd1（主） | namenode, datanode, resourcemanager, nodemanager, zookeeper, hmaster, hregionserver |
 | nd2（主） | namenode, datanode, resourcemanager, nodemanager, zookeeper, hmaster, hregionserver |
 | nd3       | datanode, nodemanager, zookeeper, hregionserver                                     |
