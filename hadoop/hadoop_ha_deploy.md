@@ -10,7 +10,8 @@
 **操作系统**：CentOS-7
 
 默认在`/root`中执行操作  
-如果对网络端口设置不熟悉，请先关闭防火墙
+如果对网络端口设置不熟悉，请先关闭防火墙  
+
 ```sh
 # 停止firewall
 systemctl stop firewalld.service
