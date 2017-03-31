@@ -7,13 +7,13 @@
 # 目录
 
  - Hadoop
- 
-    1. [hadoop_ha_deploy.md](hadoop/hadoop_ha_deploy.md)  
+
+    1. [hadoop_ha_deploy.md](hadoop/hadoop_ha_deploy.md)
         介绍和Hadoop的HA部署方法，包含HDFS、YARN、HBase和Spark
-        
-    2. [flume_kafka.md](./hadoop/flume_kafka.md)  
+
+    2. [flume_kafka.md](./hadoop/flume_kafka.md)
         测试flume数据写入至kafka
- 
+
  - Python
  
     1. [deploy_jupyter.ipynb](./python/deploy_jupyter.ipynb)  
