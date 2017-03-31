@@ -20,4 +20,6 @@ git reflog
 # 查看将会被清理的文件，务必先使用-n查看会被清理的文件
 git clean -n [-...]
 
+# 删除已经add但未commit的文件
+git rm --cache {filename}
 ```
