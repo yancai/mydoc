@@ -1,0 +1,1 @@
+spark-submit --master yarn --class com.company.edmp.QuickStart target/quickstart-1.0-SNAPSHOT-jar-with-dependencies.jar
