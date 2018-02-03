@@ -68,3 +68,10 @@
     ```sh
     ./bin/kafka-console-consumer.sh --zookeeper localhost:2181 --topic flume-topic --from-beginning
     ```
+
+# kafka常用命令
+
+```sh
+# 查询各组消费状态
+./bin/kafka-consumer-groups.sh --bootstrap-server localhost:9092 --describe --group g2
+```
